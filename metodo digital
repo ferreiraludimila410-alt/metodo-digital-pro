@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método Digital Pro - Oficial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient { background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);}        
+        .testimonial-card { transition: transform 0.3s ease; }
+        .testimonial-card:hover { transform: translateY(-5px); }
+        .floating-cta { animation: float 3s ease-in-out infinite; }
+        @keyframes float {0%{transform:translateY(0)}50%{transform:translateY(-10px)}100%{transform:translateY(0)}}
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+
+<div class="fixed bottom-6 right-6 z-50 md:hidden">
+    <a href="#" class="floating-cta bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-6 rounded-full shadow-lg flex items-center">
+        <span class="mr-2">Acessar Curso</span>
+        <i class="fas fa-arrow-right"></i>
+    </a>
+</div>
+
+<header class="bg-white shadow-sm">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <i class="fas fa-laptop-code text-blue-500 text-2xl mr-2"></i>
+            <span class="font-bold text-xl text-gray-800">Método Digital Pro</span>
+        </div>
+        <div class="hidden md:block">
+            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300">
+                Acessar o Curso
+            </a>
+        </div>
+    </div>
+</header>
+
+<section class="hero-gradient text-white py-16 md:py-24">
+    <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+
+        <div class="md:w-1/2 mb-10 md:mb-0">
+            <h1 class="text-3xl md:text-5xl font-bold mb-6 leading-tight">
+                Construa Presença Digital Profissional Mesmo Sendo Iniciante
+            </h1>
+            <p class="text-xl mb-8 opacity-90">
+                Aprenda estratégias reais de marketing digital e comece a atuar online com segurança — no seu ritmo e sem promessas irreais.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4">
+                <a href="#" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-4 px-8 rounded-full text-center transition duration-300">
+                    Começar Agora
+                </a>
+                <a href="#depoimentos" class="bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 font-bold py-4 px-8 rounded-full text-center transition duration-300">
+                    Ver Depoimentos
+                </a>
+            </div>
+        </div>
+
+        <div class="md:w-1/2 flex justify-center">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1470&q=80" class="rounded-lg shadow-2xl max-w-full h-auto md:max-w-md">
+        </div>
+
+    </div>
+</section>
+
+<section id="depoimentos" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">O Que Alunos Dizem</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="testimonial-card bg-gray-50 p-6 rounded-lg shadow-sm">
+                <h4 class="font-bold text-gray-800 mb-2">Daniel R.</h4>
+                <p class="text-gray-600 italic">
+                    "Material bem estruturado e direto ao ponto. Consegui aplicar rapidamente no meu projeto digital."
+                </p>
+            </div>
+
+            <div class="testimonial-card bg-gray-50 p-6 rounded-lg shadow-sm">
+                <h4 class="font-bold text-gray-800 mb-2">Cleyton S.</h4>
+                <p class="text-gray-600 italic">
+                    "O conteúdo é claro, acessível e realmente ensina como começar a atuar no digital de forma profissional."
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="py-16 bg-gray-800 text-white text-center">
+    <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-6">Pronta para começar sua jornada digital?</h2>
+        <p class="text-xl mb-8 max-w-2xl mx-auto">
+            Aprenda marketing digital de forma segura, clara e sem atalhos.
+        </p>
+
+        <a href="#" class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full transition duration-300">
+            Quero Começar
+        </a>
+    </div>
+</section>
+
+<footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto px-4 text-center">
+        <p class="text-lg font-bold">Método Digital Pro</p>
+        <p class="text-gray-400 mt-2">© 2025 Ludimila — CPF: 572.277.278-63</p>
+        <p class="text-gray-400">Contato: ludimilaferreira177@gmail.com</p>
+
+        <div class="mt-6">
+            <a href="#termos" class="text-gray-400 hover:text-white mx-2">Termos de Uso</a>
+            <a href="#privacidade" class="text-gray-400 hover:text-white mx-2">Política de Privacidade</a>
+        </div>
+    </div>
+</footer>
+
+<section id="termos" class="py-16 bg-white text-gray-800">
+    <div class="container mx-auto px-4 max-w-4xl">
+        <h2 class="text-2xl font-bold mb-4">Termos de Uso</h2>
+        <p class="mb-4">
+            Este site fornece materiais educativos sobre marketing digital. Nenhum resultado é garantido. O uso do conteúdo é de responsabilidade exclusiva do usuário.
+        </p>
+    </div>
+</section>
+
+<section id="privacidade" class="py-16 bg-gray-50 text-gray-800">
+    <div class="container mx-auto px-4 max-w-4xl">
+        <h2 class="text-2xl font-bold mb-4">Política de Privacidade</h2>
+        <p class="mb-4">
+            Coletamos apenas informações fornecidas voluntariamente pelo usuário, como e-mail e nome. Os dados não são compartilhados com terceiros.
+        </p>
+    </div>
+</section>
+
+</body>
+</html>
